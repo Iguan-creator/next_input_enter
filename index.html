@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>-</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color.css">
+</head>
+<body>
+
+<div class="body_class">
+
+<div class="card">
+
+        <h1 class="header_top">Создайте свой аккаунт</h1>
+
+        <div class="standardform">Создайте аккаунт и начните пользоваться бесплатным периодом</div>
+
+    <div class="login_form">
+
+        <label class="name_user">
+		
+            <div class="heading_placeholder_name flex_start">
+				<p>Имя *</p>			
+				<h3 id="name_ok"></h3>				
+			</div>
+            <h3 id="name_error"></h3>
+            <input type="text" name = "name" class="form-control register_form " placeholder="Ваше имя"></label>
+
+        <label class="name_user">
+            <div class="heading_placeholder_name">E-mail</div>
+            <input type="text" name="mail" class="form-control register_form " placeholder="mail@yourmail.ru"></label>
+
+        <label class="name_user">
+            <div class="heading_placeholder_name">Номер телефона</div>
+            <input type="tel" id="phone" name="phone" class="form-control register_form " placeholder="+7 (999) 99-99-999"></label>
+
+        <label class="name_user">
+            <div class="heading_placeholder_name flex_start">
+				<p>Пароль *</p>
+				<h3 id="name_pass"></h3>
+			</div>
+            <input type="password" name = "pass" class="form-control register_form " placeholder="Введите ваш пароль"></label>
+			<h3 id="pass_error"></h3>
+    </div>
+
+        <label class="data_processing flex_start">
+            <input type="checkbox" name="data" value="1">
+            <span></span>
+            <p>Я согласен на обработку данных</p>
+        </label>
+			<h3 id="check_error"></h3>
+	
+		<form name="myform" action="##" method="post">
+        <button class="button_register" type="submit" id="getStart" >Get Started!</button>
+		</form>
+        <div class="or">или</div>
+
+        <button class="button_register_google">Зарегистрироваться через Google</button>
+
+    <div class="have_account">Уже есть аккаунт? <a href ="#">Войти</a></div>
+
+    <div class="ad">
+            <div class="image_text"><h3>Добро пожаловать в админ</br>-панель виджета отзывов</h3></br>
+                <strong>Войдите в свой аккаунт</strong>
+                <p>для доступа к функциям</p>
+            </div>
+    </div>
+
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/dist/jquery.maskedinput.min.js"></script>
+<script src="js/rules.js"></script>
+
+
+</body>
+</html>

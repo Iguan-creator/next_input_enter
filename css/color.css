@@ -1,0 +1,15 @@
+:root {
+    --scroll_bar: #20c997;
+    --user_list_border_bottom: #dbd8d1;
+    --main_white_color: #ffffff;
+    --main_black_color: #000000;
+    --main_red_color: #ff6156;
+    --main_green_color: #3bb08f;
+    --main_undo: invert(0%);
+    --main_undo_second: invert(0%);
+    --main_three_dots: invert(0%);
+    --main_gray_color: #a9a9a9;
+    --main_black_button: #000000;
+    --main_text_black_color: #ffffff;
+    --main_text_white_color: #ffffff;
+}
